@@ -1,0 +1,33 @@
+# --- REGLAS GENERALES ---
+
+# 1. Ignorar cualquier archivo Markdown
+*.md
+*.MD
+
+# 2. Ignorar PDFs y documentos auxiliares de la guía
+*.pdf
+
+# 3. Ignorar carpetas de datos satelitales (ej. Sentinel-1 .SAFE)
+#    Se ignora cualquier carpeta cuyo nombre empiece por S1A_ o S1C_ 
+#    y termine en .SAFE (o similar)
+S1A_*/          # Sentinel-1A
+S1C_*/          # Sentinel-1C
+*.SAFE/
+
+# 4. Ignorar cualquier archivo .tif o .tiff en todo el proyecto
+*.tif
+*.tiff
+
+# 5. Ignorar carpetas intermedias creadas por scripts (ej. dataset_patches)
+Punto4/dataset_patches/
+
+# --- EXCEPCIONES / INCLUSIONES ---
+
+# Mantener explícitamente el código fuente y assets importantes
+!Punto1/**/*
+!Punto2/**/*
+!Punto3/**/*
+!Punto4/**/*
+# Se incluyen por defecto todos los .py, .json, .txt dentro de las carpetas PuntoX
+
+# --- FIN .gitignore ---
