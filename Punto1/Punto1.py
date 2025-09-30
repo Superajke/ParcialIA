@@ -16,7 +16,7 @@ class SARPunto1Corregido:
     def __init__(self):
         self.base_path = "Punto1"
         self.ensure_folder_structure()
-        self.region_name = "Medellin_Colombia"
+        self.region_name = "Santa_Marta_Colombia"
         
     def ensure_folder_structure(self):
         """Crear SOLO las carpetas que realmente se usan"""

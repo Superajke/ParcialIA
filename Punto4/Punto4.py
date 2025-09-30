@@ -28,7 +28,7 @@ class CreacionDatasetReto4:
             self.base_path = "Punto4"
             self.punto1_path = "Punto1"
         
-        self.region_name = "Medellin_Colombia"
+        self.region_name = "Santa_Marta_Colombia"
         self.patch_size = 512
         self.overlap_ratio = 0.5
         self.ensure_folder_structure()

@@ -27,7 +27,7 @@ class ClasificacionAguaReto3:
             self.base_path = "Punto3"
             self.input_path = "Punto2"
         
-        self.region_name = "Medellin_Colombia"
+        self.region_name = "Santa_Marta_Colombia"
         self.ensure_folder_structure()
         
     def ensure_folder_structure(self):
