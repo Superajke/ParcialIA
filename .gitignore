@@ -25,6 +25,7 @@ Punto4/dataset_patches/
 !Punto2/**/*
 !Punto3/**/*
 !Punto4/**/*
+!Readme.MD
 # Se incluyen por defecto todos los .py, .json, .txt dentro de las carpetas PuntoX
 
 # --- FIN .gitignore ---
