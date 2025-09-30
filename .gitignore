@@ -8,7 +8,6 @@
 #    Se ignora cualquier carpeta cuyo nombre empiece por S1A_ o S1C_ 
 #    y termine en .SAFE (o similar)
 S1A_*/          # Sentinel-1A
-S1C_*/          # Sentinel-1C
 *.SAFE/
 
 # 4. Ignorar cualquier archivo .tif o .tiff en todo el proyecto
