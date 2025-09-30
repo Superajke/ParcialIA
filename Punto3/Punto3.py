@@ -299,7 +299,6 @@ class ClasificacionAguaReto3:
         print("  Reporte guardado")
         
         print("\nRESUMEN FINAL:")
-        print("="*60)
         if 'filtrada' in water_stats and 'original' in water_stats:
             print("Agua detectada (filtrada): {:.3f}%".format(water_stats['filtrada']['water_percentage']))
             print("Agua detectada (original): {:.3f}%".format(water_stats['original']['water_percentage']))
@@ -337,11 +336,7 @@ class ClasificacionAguaReto3:
             return False
 
 if __name__ == "__main__":
-    print("="*80)
     print("RETO 3: CLASIFICACION AGUA/NO-AGUA")
-    print("GUIA 3 - VISION POR COMPUTADOR E IA")
-    print("Valor: 15% del parcial")
-    print("="*80)
     
     clasificador = ClasificacionAguaReto3()
     resultado = clasificador.execute_complete_analysis()
