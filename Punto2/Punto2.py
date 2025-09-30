@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-RETO 3: CLASIFICACION AGUA/NO-AGUA - COMPLETO
-GUIA 3 - VISION POR COMPUTADOR E IA
-Valor: 15% del parcial
-Compatible Python 3.5
-"""
 
 import os
 import numpy as np

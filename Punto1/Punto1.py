@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-RETO 1: "IMAGENES Y FILTRADO" - CORREGIDO
-Elimina carpeta innecesaria y organiza correctamente los archivos
-"""
 
 import os
 import glob

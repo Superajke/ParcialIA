@@ -1,13 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""
-RETO 4: "CREACION DEL DATASET" - CORREGIDO
-GUIA 3 - VISION POR COMPUTADOR E IA
-Valor: 50% del parcial
-Compatible Python 3.5
-"""
-
 import os
 import numpy as np
 import matplotlib.pyplot as plt
