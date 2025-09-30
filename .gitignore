@@ -4,9 +4,6 @@
 *.md
 *.MD
 
-# 2. Ignorar PDFs y documentos auxiliares de la guía
-*.pdf
-
 # 3. Ignorar carpetas de datos satelitales (ej. Sentinel-1 .SAFE)
 #    Se ignora cualquier carpeta cuyo nombre empiece por S1A_ o S1C_ 
 #    y termine en .SAFE (o similar)
