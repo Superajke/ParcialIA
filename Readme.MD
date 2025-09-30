@@ -1,4 +1,4 @@
-# ParcialIA – Teledetección con SAR (Sentinel‑1)
+# ParcialIA – Teledetección con SAR (Sentinel‑1) Samuel Ignacio Arango Ramírez
 
 Proyecto académico que implementa un flujo completo de procesamiento SAR desde el preprocesamiento y filtrado hasta la clasificación temática agua/no‑agua y la creación de un dataset de pares 512×512 para entrenamiento de modelos de despeckle, alineado con los cuatro retos y ponderaciones definidos por la guía del curso.
 
